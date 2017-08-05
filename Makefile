@@ -6,7 +6,7 @@ CATEGORIES=	cad
 MASTER_SITES=	https://github.com/cliffordwolf/icestorm/
 
 MAINTAINER=	ash_ports@aeria.net
-COMMENT=	Port scaffolding for cliffordwolfs' Icestorm bitstream toolkit for lattice iCE40 FPGAS.
+COMMENT=	Port scaffolding for  Icestorm bitstream tools for lattice iCE40 FPGAS
 
 LICENSE=	MIT
 
