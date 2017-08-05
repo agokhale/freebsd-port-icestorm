@@ -13,7 +13,7 @@ LICENSE=	MIT
 USES=		tar:xz gmake
 BUILD_DEPENDS= 	gmake:devel/gmake
 
-BINS=		iceprog icepack icepll
+BINS=		iceprog icepack icepll icebox.py iceboxdb.py icebox_chipdb icebox_diff icebox_explain icebox_colbuf icebox_html icebox_maps icebox_vlog icebox_satat icebram icemulti
 
 USE_GITHUB= 	yes
 GH_ACCOUNT=	agokhale
