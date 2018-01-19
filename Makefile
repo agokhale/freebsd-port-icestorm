@@ -10,8 +10,9 @@ COMMENT=	Port scaffolding for  Icestorm bitstream tools for lattice iCE40 FPGAS
 
 LICENSE=	MIT
 
-USES=		tar:xz gmake
-BUILD_DEPENDS= 	gmake:devel/gmake python3:lang/python3
+USES=		tar:xz gmake pkgconfig
+BUILD_DEPENDS= 	gmake:devel/gmake python3:lang/python3 
+LIB_DEPENDS=  	libftdi.so:devel/libftdi
 
 BINS=		iceprog icepack icepll icebox.py iceboxdb.py icebox_chipdb icebox_diff icebox_explain icebox_colbuf icebox_html icebox_maps icebox_vlog icebox_satat icebram icemulti
 
